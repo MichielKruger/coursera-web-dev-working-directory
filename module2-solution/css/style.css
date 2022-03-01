@@ -2,20 +2,26 @@
   box-sizing: border-box;
   font-family: Helvetica;
 }
+
 section {
   position: relative;
   border: 1px solid black;
   background-color: #A52A2A;
   /* width: 90%; */
   height: 150px;
-  padding: 0px 0px 0px 0px;
+  padding: 5px 5px 5px 5px;
   margin: 10px 10px 10px 10px;
   /* margin-right: auto;
   margin-left: auto; */
   color: white;
 }
 
+h1 {
+  font-size: 175%;
+}
+
 h2 {
+  font-size: 125%;
   position: absolute;
   border: 1px solid black;
   padding: 10px 10px 10px 10px;
@@ -28,12 +34,12 @@ h2 {
 }
 
 p {
-  height: 90%;
+  position: absolute;
+  overflow: hidden;
+  margin: 5px;
+  top: 50px;
+  height: 60%;
   width: 90%;
-  /* margin-bottom: auto; */
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 60px;
 }
 
 #sh1 {
