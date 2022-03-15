@@ -42,6 +42,10 @@ p {
   width: 90%;
 }
 
+div {
+  gap: 20px;
+}
+
 #sh1 {
   background-color: #6ca52a;
   color: black;
@@ -168,6 +172,7 @@ p {
 @media (max-width: 767px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
+    margin-bottom: 15px;
     /* border: 1px solid green; */
   }
   .col-sm-1 {
